@@ -11,6 +11,5 @@ app.set('view engine', 'handlebars')
 app.get('/projetoRouter/:codigo', projetoRouter.detalheProduto) //mandando para um cntralizador de rotas
 
   
-app.listen(3000, () =>{//testando
-	console.log('funcionando')
+app.listen(3000, () =>{//feedback
 })
